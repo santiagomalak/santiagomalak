@@ -4,7 +4,7 @@
 
 # Hey, soy Santiago 👋
 
-**Data Scientist · Analytics Engineer · Full-Stack Developer**
+**Analytics Engineer · Data Scientist · Full-Stack Developer**
 
 Córdoba, Argentina &nbsp;·&nbsp; Convierto datos en decisiones reales
 
@@ -18,9 +18,9 @@ Córdoba, Argentina &nbsp;·&nbsp; Convierto datos en decisiones reales
 
 ## Sobre mí
 
-Data Scientist y Analytics Engineer con foco en construir infraestructura de datos que los equipos realmente usan. Me especializo en el stack completo: desde la ingesta y modelado hasta el análisis estadístico y machine learning.
+Analytics Engineer y Data Scientist con foco en construir infraestructura de datos que los equipos realmente usan. Me especializo en el stack completo: ingesta, modelado en dbt, análisis estadístico y machine learning.
 
-En mi último rol diseñé de cero un sistema de análisis de rendimiento para más de **300 personas** usando SQL, BigQuery y dbt — hoy es la herramienta principal de toma de decisiones de la organización. Actualmente construyo **StackAdvisor**, un SaaS que ayuda a founders y developers a elegir el stack correcto desde el inicio.
+En mi último rol diseñé de cero un sistema de rendimiento deportivo para **967 atletas en 13 deportes** usando BigQuery + dbt + Metabase — sigue operativo más de 1 año después de mi salida. Actualmente construyo **StackAdvisor**, un SaaS que ayuda a founders y developers a elegir el stack correcto desde el inicio.
 
 ---
 
@@ -53,9 +53,17 @@ En mi último rol diseñé de cero un sistema de análisis de rendimiento para m
 
 ### Performance Monitoring System — *Ivolution*
 
-Sistema de análisis de rendimiento diseñado de cero para más de **300 personas**. Construido con SQL + BigQuery + dbt + Metabase. Alertas de tres estados con umbrales dinámicos por percentil (p25/p75), ventanas móviles de evaluación y soporte ES/EN/PT. Herramienta principal de decisión de la organización.
+Sistema de análisis de rendimiento deportivo diseñado de cero. **967 atletas monitoreados en 13 deportes**, 10.000+ mediciones registradas. Alertas de tres estados (SUPERCOMPENSACIÓN / ATENCIÓN / FATIGADO) con umbrales dinámicos por percentil (p25/p75) y soporte ES/EN/PT. Sigue operativo más de 1 año después de mi salida — herramienta principal de toma de decisiones de la organización.
 
 `SQL` `BigQuery` `dbt` `Metabase` `Python` `Analytics Engineering`
+
+---
+
+### [E-Commerce Data Platform — Olist Brazil](https://github.com/santiagomalak/ecommerce-data-platform)
+
+Pipeline de datos end-to-end sobre **100k+ órdenes reales** del mercado brasileño. PostgreSQL + dbt con 4 capas de modelos (staging → intermediate → marts). RFM segmentation, cohort retention, revenue trends y seller performance — todo en SQL puro. Análisis y documentación en portugués (C1). CI/CD con GitHub Actions.
+
+`PostgreSQL` `dbt` `Python` `Docker` `SQL` `RFM` `Cohort Analysis` `GitHub Actions`
 
 ---
 
